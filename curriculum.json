@@ -1,7 +1,7 @@
 {
     "_comment": "A1 speaking curriculum, first 5 lessons. Each lesson is self-contained: briefing, then scripted practice steps. The CLOSE phase is handled by the prompt template, so steps do not include a closing line.",
     "version": 2,
-    "current_lesson": 5,
+    "current_lesson": 4,
     "lessons": [
         {
             "lesson": 1,
