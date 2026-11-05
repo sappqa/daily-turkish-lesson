@@ -1,0 +1,196 @@
+{
+    "_comment": "A1 speaking curriculum, first 5 lessons. Each lesson is self-contained: briefing, then scripted practice steps. The CLOSE phase is handled by the prompt template, so steps do not include a closing line.",
+    "version": 2,
+    "current_lesson": 3,
+    "lessons": [
+        {
+            "lesson": 1,
+            "level": "A1",
+            "title": "Greetings and introductions",
+            "scenario": "Meet someone for the first time",
+            "grammar": "Personal pronouns ben/sen/o; olmak in simple identity sentences (-im, -sin, no ending for o). Set phrases only: Merhaba, Adın ne?, Adım ..., Memnun oldum",
+            "vocabulary_theme": "greetings, names, jobs",
+            "briefing": {
+                "goal": "Today you'll learn to greet someone, say your name, and say what you do.",
+                "grammar_explanation": "Turkish has no separate word for 'am', 'are', or 'is'. Instead, you say the pronoun and attach a short ending to the word that follows. For 'I', the ending is -im. For 'you', it is -sin. For 'he' or 'she', there is no ending at all. The vowel in the ending changes to match the word, so you will hear -im, -ım, -um, or -üm. For example: Ben öğretmenim, I am a teacher. Sen öğretmensin, you are a teacher. O öğretmen, he or she is a teacher. Turkish has just one word, o, for both he and she.",
+                "examples": [
+                    "Ben Claude'um. (I am Claude.)",
+                    "Ben öğrenciyim. (I am a student.)",
+                    "Sen öğretmensin. (You are a teacher.)",
+                    "O doktor. (He or she is a doctor.)"
+                ],
+                "key_words": [
+                    "Merhaba (hello)",
+                    "Adın ne? (What is your name?)",
+                    "Memnun oldum (nice to meet you)",
+                    "ben (I)",
+                    "sen (you)",
+                    "o (he, she, it)",
+                    "öğrenci (student)",
+                    "öğretmen (teacher)",
+                    "doktor (doctor)",
+                    "mühendis (engineer)"
+                ]
+            },
+            "steps": [
+                "Say “Merhaba! Ben Claude'um.” (Hello! I am Claude.) Then ask “Adın ne?” and explain in English that it means “What is your name?” Teach the reply “Adım” plus their name, meaning “My name is ...”. Wait for their answer.",
+                "Reply with “Memnun oldum.” (Nice to meet you.) Have them say it back to you.",
+                "Say “Ben öğretmenim.” (I am a teacher.) Have them repeat it. Point out the -im ending on öğretmen.",
+                "Say “Ben öğrenciyim.” (I am a student.) Have them repeat it. Then ask them to say their own sentence with “Ben ...” using one of the jobs from the key words. Help with the ending if needed (-im, -ım, -um, -üm).",
+                "Say “Sen öğretmensin.” (You are a teacher.) Have them repeat it. Explain that -sin is the ending for “you”.",
+                "Say “Ayşe doktor.” (Ayşe is a doctor.) Ask them to say “O doktor.” about her. Then say “Ahmet mühendis.” and have them say “O mühendis.” Point out that o needs no ending."
+            ]
+        },
+        {
+            "lesson": 2,
+            "level": "A1",
+            "title": "Where are you from?",
+            "scenario": "Chat with a new neighbor",
+            "grammar": "Question particle mı/mi/mu/mü; mı with personal endings (sen, o). Review: olmak identity sentences with ben, sen, o. Set phrase: Sen nerelisin?",
+            "vocabulary_theme": "nationalities, countries",
+            "briefing": {
+                "goal": "Today you'll learn to ask someone whether they are from a place, and to answer.",
+                "grammar_explanation": "To turn a statement into a yes or no question, Turkish adds a small separate word after the word you're asking about: mı, mi, mu, or mü. It changes to match the last vowel of the word before it. The personal ending then attaches to this small word, not to the noun. For example: Sen Türk müsün? Are you Turkish? Sen Amerikalı mısın? Are you American? For he or she, there is no ending: O Kanadalı mı? Is he or she Canadian? To answer, say evet for yes or hayır for no, then a full sentence: Evet, ben Türküm. Hayır, ben Amerikalıyım.",
+                "examples": [
+                    "Sen Türk müsün? (Are you Turkish?)",
+                    "Sen Amerikalı mısın? (Are you American?)",
+                    "Sen İngiliz misin? (Are you English?)",
+                    "Sen Rus musun? (Are you Russian?)",
+                    "O Kanadalı mı? (Is he or she Canadian?)"
+                ],
+                "key_words": [
+                    "nerelisin (where are you from)",
+                    "Türk (Turkish)",
+                    "Amerikalı (American)",
+                    "Kanadalı (Canadian)",
+                    "İngiliz (English)",
+                    "Rus (Russian)",
+                    "evet (yes)",
+                    "hayır (no)"
+                ]
+            },
+            "steps": [
+                "Greet them as a friendly new neighbor: “Merhaba!” Ask “Sen nerelisin?” and explain it means “Where are you from?” Have them answer “Ben Amerikalıyım.” or their own nationality. If their nationality is not in the key words, give the word with its English meaning.",
+                "Say “Sen Türk müsün?” (Are you Turkish?) Have them repeat the question. Then teach “Hayır, ben Amerikalıyım.” (No, I am American.) or the matching answer for their nationality, and have them say it.",
+                "Ask “Sen Amerikalı mısın?” (Are you American?) Have them answer with evet or hayır plus a full sentence. Point out that the particle changed to mı because the last vowel is ı.",
+                "Ask “Sen İngiliz misin?” (Are you English?) Have them answer with a full sentence. Point out that the particle is mi after the vowel i.",
+                "Ask “Sen Rus musun?” (Are you Russian?) Have them answer with a full sentence. Point out that the particle is mu after the vowel u.",
+                "Say “Ahmet Türk.” (Ahmet is Turkish.) Then ask “O Rus mu?” (Is he Russian?) Have them answer “Hayır, o Türk.” Point out that o mı has no personal ending.",
+                "Role reversal: ask them to ask you “Sen Türk müsün?” Answer “Evet, ben Türküm.” Praise them for forming the question."
+            ]
+        },
+        {
+            "lesson": 3,
+            "level": "A1",
+            "title": "I'm not a doctor",
+            "scenario": "Clear up a mix-up with a new coworker",
+            "grammar": "Negation with değil: değilim, değilsin, değil. Review: olmak identity sentences and mı questions",
+            "vocabulary_theme": "jobs",
+            "briefing": {
+                "goal": "Today you'll learn to say what you are not, and to politely correct a mix-up.",
+                "grammar_explanation": "To say 'not' in an identity sentence, put the word değil after the noun and attach the personal ending to değil. Ben doktor değilim: I am not a doctor. Sen doktor değilsin: you are not a doctor. O doktor değil: he or she is not a doctor. Değil itself never changes with vowels, only the ending after it. A very common pattern is to answer a question with hayır, then correct it: Sen doktor musun? Hayır, ben doktor değilim. Ben mühendisim.",
+                "examples": [
+                    "Ben doktor değilim. (I am not a doctor.)",
+                    "Sen öğretmen değilsin. (You are not a teacher.)",
+                    "O hemşire değil. (He or she is not a nurse.)",
+                    "Hayır, ben doktor değilim. Ben mühendisim. (No, I'm not a doctor. I'm an engineer.)"
+                ],
+                "key_words": [
+                    "değil (not)",
+                    "doktor (doctor)",
+                    "hemşire (nurse)",
+                    "avukat (lawyer)",
+                    "mühendis (engineer)",
+                    "öğretmen (teacher)",
+                    "hayır (no)"
+                ]
+            },
+            "steps": [
+                "Set the scene: you are a new coworker. Say “Ben doktor değilim.” (I am not a doctor.) Have them repeat it. Explain in English that değil means “not” and takes the ending.",
+                "Say “Ben avukat değilim. Ben öğretmenim.” (I am not a lawyer. I am a teacher.) Have them repeat both sentences.",
+                "Ask “Sen doktor musun?” (Are you a doctor?) Teach the answer “Hayır, ben doktor değilim.” and have them say it.",
+                "Ask “Sen avukat mısın?” (Are you a lawyer?) Have them answer “Hayır, ben avukat değilim.” Then ask them to add what they really are, like “Ben öğrenciyim.”",
+                "Say “Sen hemşire değilsin.” (You are not a nurse.) Have them repeat it. Explain that -sin is the ending for “you”.",
+                "Say “Ayşe hemşire. Ahmet hemşire değil.” (Ayşe is a nurse. Ahmet is not a nurse.) Ask them to say “O hemşire değil.” about Ahmet.",
+                "Quick-fire: ask “Sen mühendis misin?” and wait for their answer. Then ask “Sen öğretmen misin?” For each, have them answer with evet or hayır plus a full sentence, using either “Ben ...im” or “Ben ... değilim”."
+            ]
+        },
+        {
+            "lesson": 4,
+            "level": "A1",
+            "title": "We, you, and they",
+            "scenario": "Introduce yourself and a friend to someone new",
+            "grammar": "Plural pronouns biz/siz/onlar with olmak (-iz, -siniz, no ending for onlar); siz as polite you. Review: mı questions and değil",
+            "vocabulary_theme": "people and relationships",
+            "briefing": {
+                "goal": "Today you'll learn to talk about more than one person: we, you plural, and they.",
+                "grammar_explanation": "Biz means we, siz means you plural, and onlar means they. The endings: for biz, add -iz. For siz, add -siniz. For onlar, there is no ending. The vowel changes to match the word, so you will hear -iz, -ız, -uz, or -üz. For example: Biz öğrenciyiz, we are students. Siz öğretmensiniz, you are teachers. Onlar öğrenci, they are students. Turkish also uses siz to be polite with one person you don't know well.",
+                "examples": [
+                    "Biz arkadaşız. (We are friends.)",
+                    "Biz Amerikalıyız. (We are American.)",
+                    "Siz öğretmen misiniz? (Are you teachers?)",
+                    "Onlar komşu. (They are neighbors.)"
+                ],
+                "key_words": [
+                    "biz (we)",
+                    "siz (you, plural or polite)",
+                    "onlar (they)",
+                    "arkadaş (friend)",
+                    "komşu (neighbor)",
+                    "öğrenci (student)",
+                    "öğretmen (teacher)"
+                ]
+            },
+            "steps": [
+                "Say “Biz arkadaşız.” (We are friends.) Ask them to imagine you and they are friends. Have them repeat it.",
+                "Say “Biz öğrenciyiz.” (We are students.) Have them repeat it. Point out the -yiz ending after the vowel.",
+                "Say “Siz öğretmensiniz.” (You are teachers.) Have them repeat it. Explain that siz is plural you, and also the polite you.",
+                "Ask “Siz öğretmen misiniz?” (Are you teachers?) Ask them to pretend that they and a friend are teachers, and answer “Evet, biz öğretmeniz.”",
+                "Ask “Siz Türk müsünüz?” (Are you Turkish?) Have them answer “Hayır, biz Türk değiliz.” (No, we are not Turkish.) or “Hayır, biz Amerikalıyız.”",
+                "Say “Ayşe komşu. Ahmet komşu. Onlar komşu.” (Ayşe is a neighbor. Ahmet is a neighbor. They are neighbors.) Have them say “Onlar komşu.” Point out that onlar takes no ending.",
+                "Role-play: have them introduce themselves and a pretend friend in two short sentences, like “Biz arkadaşız. Biz öğrenciyiz.” Help with the endings if needed."
+            ]
+        },
+        {
+            "lesson": 5,
+            "level": "A1",
+            "title": "What is this?",
+            "scenario": "Point at things in a café",
+            "grammar": "Demonstratives bu/şu/o; Bu ne?; Bu bir + noun. Review: mı questions",
+            "vocabulary_theme": "everyday objects, café items",
+            "briefing": {
+                "goal": "Today you'll learn to ask what something is, and to name things around you.",
+                "grammar_explanation": "Turkish has three words for pointing. Bu means this, for something near you. Şu means that, for something a little farther away. O means that, for something far away. To ask what something is, say: Bu ne? What is this? To answer, say: Bu bir kitap. This is a book. There is no word for 'is', just like before. To check, add the question particle: Bu kitap mı? Is this a book? Evet, bu kitap. Hayır, bu kalem.",
+                "examples": [
+                    "Bu ne? (What is this?)",
+                    "Bu bir kitap. (This is a book.)",
+                    "Şu bir masa. (That is a table.)",
+                    "Bu çay mı? (Is this tea?)"
+                ],
+                "key_words": [
+                    "bu (this)",
+                    "şu (that, over there)",
+                    "o (that, far away)",
+                    "ne (what)",
+                    "bir (a, one)",
+                    "kitap (book)",
+                    "kalem (pen)",
+                    "masa (table)",
+                    "telefon (phone)",
+                    "çay (tea)",
+                    "kahve (coffee)",
+                    "su (water)"
+                ]
+            },
+            "steps": [
+                "Say “Bu bir kitap.” (This is a book.) Explain you are pretending to hold a book. Have them repeat it.",
+                "Pretend you are holding a pen. Ask “Bu ne?” and explain it means “What is this?” Have them answer “Bu bir kalem.” Give them the word kalem if they need it.",
+                "Pretend to point at a table far from you. Say “Şu bir masa.” (That is a table.) Have them repeat it. Then ask “Şu ne?” and have them answer “Şu bir masa.”",
+                "Say “O bir telefon.” (That is a phone, far away.) Have them repeat it. Mention that o also means he, she, or it, and context tells you which.",
+                "Pretend you are holding a cup of tea. Ask “Bu çay mı?” (Is this tea?) Have them answer “Evet, bu çay.”",
+                "Pretend you are holding a glass of water. Ask “Bu kahve mi?” (Is this coffee?) Have them answer “Hayır, bu su.”",
+                "Role reversal: ask them to pretend to hold something and ask you “Bu ne?” Answer with “Bu bir ...” using a word from the key words."
+            ]
+        }
+    ]
+}

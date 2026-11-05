@@ -1,0 +1,13 @@
+[project]
+name = "daily-turkish-lesson"
+version = "0.1.0"
+description = "Generates a daily Turkish lesson with Claude and emails it each morning"
+readme = "README.md"
+authors = [
+    { name = "sappqa", email = "sapp.quinn@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv]
+package = false

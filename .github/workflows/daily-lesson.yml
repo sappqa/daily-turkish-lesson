@@ -1,0 +1,48 @@
+name: Daily Turkish Lesson
+
+on:
+  schedule:
+    # 10:00 UTC = 5:00 AM Eastern (EST). During daylight saving time (EDT),
+    # use "0 9 * * *" instead to keep it at 5:00 AM.
+    - cron: "0 10 * * *"
+  workflow_dispatch: # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write # needed to push the curriculum.json update
+
+concurrency:
+  group: daily-lesson
+  cancel-in-progress: false
+
+jobs:
+  send-lesson:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --locked
+
+      - name: Generate and send lesson
+        env:
+          EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
+          EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
+        run: uv run main.py
+
+      - name: Commit updated curriculum.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Daily lesson workflow run"
+            git push
+          fi
