@@ -7,12 +7,12 @@ from pathlib import Path
 
 # Files
 BASE_DIR = Path(__file__).parent
-CURRICULUM_FILE = BASE_DIR / "story.md"
+STORY_FILE = BASE_DIR / "story17.md"
 
 
 def load_story():
-    with open(CURRICULUM_FILE, "r", encoding="utf-8") as file:
-        return json.load(file)
+    with open(STORY_FILE, "r", encoding="utf-8") as file:
+        return file.read()
 
 
 def generate_prompt(story):
