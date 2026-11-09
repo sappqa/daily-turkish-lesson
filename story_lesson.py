@@ -7,8 +7,7 @@ from pathlib import Path
 
 # Files
 BASE_DIR = Path(__file__).parent
-STORY_FILE = BASE_DIR / "story17.md"
-
+STORY_FILE = BASE_DIR / "stories" / "story16.md"
 
 def load_story():
     with open(STORY_FILE, "r", encoding="utf-8") as file:
