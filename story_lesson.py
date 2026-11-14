@@ -7,7 +7,7 @@ from pathlib import Path
 
 # Files
 BASE_DIR = Path(__file__).parent
-STORY_FILE = BASE_DIR / "stories" / "story16.md"
+STORY_FILE = BASE_DIR / "stories" / "story18.md"
 
 def load_story():
     with open(STORY_FILE, "r", encoding="utf-8") as file:
@@ -26,9 +26,9 @@ Run the lesson in three parts, one at a time. Wait for my answer before moving o
 
 1. Vocabulary quiz: Choose 10 Turkish words from the story. Say each word aloud in english and ask me to say it in Turkish.
 
-2. Sentence translation: Choose 5 sentences from the story. Read each one to me in English and ask me to say it in Turkish. After each attempt, tell me how close I was and give the correct version.
+2. Sentence translation: Choose 5 sentences from the story. Read each one to me in English and ask me to say it in Turkish.
 
-3. New phrases: Write 5 new English phrases that reuse the vocabulary and grammar patterns from the story. Ask me to say each one in Turkish, then correct me and briefly explain any grammar I missed.
+3. New phrases: Write 5 new English phrases that reuse the vocabulary and grammar patterns from the story. Ask me to say each one in Turkish.
 """
 
 
